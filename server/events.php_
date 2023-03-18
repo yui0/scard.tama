@@ -1,0 +1,20 @@
+<?php
+header('Content-Type: text/event-stream');
+//header('Cache-Control: no-store');
+header("Cache-Control: no-cache");
+
+// CORS の設定
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+header('Access-Control-Allow-Credentials: true');
+
+while(true) {
+    printf("data: %s\n\n", json_encode([
+        'time' => (new DateTime('now', new DateTimeZone('Asia/Tokyo')))->format('H:i:s'),
+        'word' => 'abcあいう😀😁😂',
+    ]));
+    ob_end_flush();
+    flush();
+    sleep(1);
+}
+?>

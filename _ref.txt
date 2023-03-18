@@ -1,0 +1,179 @@
+npm update -g npm
+npm update -g
+
+npm install -g expo-cli
+expo -V
+expo init scard
+cd scard
+
+#expo install react-native-web
+expo install axios
+#expo install js-crud-api
+expo install react-native-sse
+#expo install expo-notifications
+#android
+#      "useNextNotificationsApi": true
+
+expo install expo-permissions
+expo install expo-barcode-scanner
+
+expo install react-native-qrcode-svg react-native-svg
+#expo install react-qrbtf
+#npm uninstall react-qrbtf
+
+#expo install @fingerprintjs/fingerprintjs
+#expo install react-native-device-info
+
+#expo install react-lottie
+
+#expo install react-native-elements
+expo install native-base
+expo install expo-font
+#expo install react-native-paper
+
+#expo install @mui/material @emotion/react @emotion/styled
+#expo install @mui/x-data-grid
+
+#expo install react-edit-list
+#expo install react-native-editable-list
+#expo install react-native-data-table
+#expo install ka-table
+
+#expo install react-admin
+#expo install ra-data-treeql
+
+expo login
+shop@berry-lab.net
+berry2002
+
+expo publish
+
+
+# server
+https://github.com/mevdschee/php-crud-api
+https://github.com/mevdschee/php-api-auth
+
+
+# native base
+#expo init my-app --template @native-base/expo-template-typescript
+expo init my-app --template react-native-nativebase-bottom-tabs-template
+
+
+
+# React Native Elements
+npx create-expo-app --template @rneui/template
+
+
+
+# UI Kitten
+yarn add @ui-kitten/components @eva-design/eva react-native-svg
+yarn add @ui-kitten/eva-icons
+#npx expo install @ui-kitten/eva-icons
+npx expo install react-native-svg@9.13.6
+If you use Expo for Web, you need to add the following underneath the "web" key in app.json "build": { "babel": { "include": [ "@ui-kitten/components" ] }
+npx expo install react-native-web@~0.18.10 react-dom@18.2.0
+npx expo install @expo/webpack-config@^18.0.1
+yarn add @react-navigation/native
+yarn add @react-navigation/bottom-tabs
+yarn add react-native-safe-area-context
+
+深いオレンジ色のテーマをEva Designカラージェネレーターで作ってみましょう。
+
+    Primary: #FF6721
+    Success: #3DE570
+    Info: E0292F9
+    Warning: #F9A536
+    Danger: #FC5A80
+
+yarn add axios
+expo install expo-permissions
+expo install expo-barcode-scanner
+yarn add react-native-qrcode-svg react-native-svg
+
+
+
+# Ant Design Mobile
+yarn add antd-mobile
+yarn add react-router-dom
+
+
+
+# react-native-paper
+yarn add axios
+#yarn add qrcode
+expo install expo-permissions
+expo install expo-barcode-scanner
+yarn add react-native-paper
+yarn add react-native-qrcode-svg react-native-svg
+yarn add styled-component styled-system
+
+#yarn licenses generate-disclaimer > licenses.txt
+#yarn global add license-checker
+#yarn add license-checker
+#license-checker --production --direct --customPath ./customFormat.json --json --out ./licenses.json
+npx npm-license-crawler --dependencies --production --onlyDirectDependencies --omitVersion --json licenses.json
+
+
+# tamagui
+#https://github.com/akitoshi/tamagui-expo-router
+npm install -g yarn
+npm create tamagui
+yarn web
+
+yarn add axios
+yarn add qrcode
+#yarn add qrcode-svg
+#yarn add miniprogram-qrcode-svg
+#yarn add react-native-camera-kit
+#yarn add react-native-camera
+#yarn add react-native-qrcode-scanner
+#yarn add expo-modules-core
+#npx expo install expo-barcode-scanner
+#yarn add expo-permissions
+#yarn add expo-barcode-scanner
+# apps/next/next.config.js: withTM
+#npx expo install expo-barcode-scanner@~12.1.0 expo-constants@~14.0.2 expo-permissions@~14.0.0 react@18.1.0 react-dom@18.1.0 react-native-gesture-handler@~2.8.0 react-native-reanimated@~2.12.0 react-native-safe-area-context@4.4.1 react-native-screens@~3.18.0
+yarn add expo-barcode-scanner@~12.1.0 expo-constants@~14.0.2 expo-permissions@~14.0.0 react@18.1.0 react-dom@18.1.0 react-native-gesture-handler@~2.8.0 react-native-reanimated@~2.12.0 react-native-safe-area-context@4.4.1 react-native-screens@~3.18.0
+
+cd apps/expo
+yarn add expo-permissions
+yarn add expo-barcode-scanner
+cd ../..
+# apps/next/next.config.js: withTM
+#yarn add react-native-reanimated
+#yarn add react-native-qrcode-svg react-native-svg
+
+
+
+# tamagui
+#npm create tamagui@latest
+#https://github.com/chen-rn/CUA
+npm install -g yarn
+npm create tamagui@latest tamagui-test
+cd tamagui-test
+
+# web
+yarn web
+open http://localhost:3000
+
+# native
+yarn native
+
+
+#npx create-expo-app youprojectname -t tamagui-expo-template --no-install
+#cd yourappname
+#yarn install
+#expo install @expo/webpack-config
+#yarn start
+
+
+npx create-expo-app -t expo-template-blank-typescript
+cd [app]
+yarn add @tamagui/babel-plugin babel-plugin-transform-inline-environment-variables
+npx expo install react-native-reanimated
+#babel.config.js
+yarn add tamagui expo-font @tamagui/font-inter @tamagui/theme-base @tamagui/animations-react-native @tamagui/config react-native-web react-dom
+#tamagui.config.ts
+#App.tsx
+expo start
+
